@@ -14,7 +14,7 @@
         tmux: tmux{
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp A>;
+            bindings = <&sk LCTRL &kp A &kp N1>;
             label = "TMUX";
         };
     };
